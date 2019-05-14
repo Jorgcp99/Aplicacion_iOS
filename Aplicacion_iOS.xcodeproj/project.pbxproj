@@ -12,6 +12,17 @@
 		A1588DE52289C1C100749F96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1588DE32289C1C100749F96 /* Main.storyboard */; };
 		A1588DE72289C1C200749F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1588DE62289C1C200749F96 /* Assets.xcassets */; };
 		A1588DEA2289C1C200749F96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1588DE82289C1C200749F96 /* LaunchScreen.storyboard */; };
+		A1588DF72289D5BD00749F96 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588DF62289D5BD00749F96 /* Extensions.swift */; };
+		A1588DF92289D5CE00749F96 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588DF82289D5CE00749F96 /* StringExtension.swift */; };
+		A1588DFB2289D5E000749F96 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588DFA2289D5E000749F96 /* SampleData.swift */; };
+		A1588DFE2289D5F800749F96 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588DFD2289D5F800749F96 /* Enums.swift */; };
+		A1588E012289D61000749F96 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588E002289D61000749F96 /* Student.swift */; };
+		A1588E032289D61800749F96 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588E022289D61800749F96 /* Teacher.swift */; };
+		A1588E052289D62300749F96 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588E042289D62300749F96 /* Subject.swift */; };
+		A1588E132289D85200749F96 /* TeacherViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588E122289D85200749F96 /* TeacherViewCell.swift */; };
+		A1588E152289D86E00749F96 /* TeachersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588E142289D86E00749F96 /* TeachersViewController.swift */; };
+		A1588E1A2289D8AD00749F96 /* StudentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588E192289D8AD00749F96 /* StudentViewCell.swift */; };
+		A1588E1C2289D8C600749F96 /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588E1B2289D8C600749F96 /* StudentsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +32,18 @@
 		A1588DE42289C1C100749F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1588DE62289C1C200749F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1588DE92289C1C200749F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A1588DEB2289C1C200749F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1588DEB2289C1C200749F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		A1588DF62289D5BD00749F96 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A1588DF82289D5CE00749F96 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		A1588DFA2289D5E000749F96 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		A1588DFD2289D5F800749F96 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		A1588E002289D61000749F96 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		A1588E022289D61800749F96 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		A1588E042289D62300749F96 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		A1588E122289D85200749F96 /* TeacherViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherViewCell.swift; sourceTree = "<group>"; };
+		A1588E142289D86E00749F96 /* TeachersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachersViewController.swift; sourceTree = "<group>"; };
+		A1588E192289D8AD00749F96 /* StudentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewCell.swift; sourceTree = "<group>"; };
+		A1588E1B2289D8C600749F96 /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,177 @@
 		A1588DDE2289C1C100749F96 /* Aplicacion_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A1588DDF2289C1C100749F96 /* AppDelegate.swift */,
-				A1588DE12289C1C100749F96 /* ViewController.swift */,
-				A1588DE32289C1C100749F96 /* Main.storyboard */,
-				A1588DE62289C1C200749F96 /* Assets.xcassets */,
-				A1588DE82289C1C200749F96 /* LaunchScreen.storyboard */,
 				A1588DEB2289C1C200749F96 /* Info.plist */,
+				A1588DF52289D5A100749F96 /* App */,
+				A1588DF42289D59000749F96 /* Extensions */,
+				A1588DF32289D58300749F96 /* Data */,
+				A1588DF22289D57900749F96 /* Features */,
+				A1588DF12289D55D00749F96 /* Resources */,
 			);
 			path = Aplicacion_iOS;
+			sourceTree = "<group>";
+		};
+		A1588DF12289D55D00749F96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1588DE62289C1C200749F96 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A1588DF22289D57900749F96 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A1588E072289D64F00749F96 /* Teachers */,
+				A1588E062289D64600749F96 /* Students */,
+				A1588E092289D66800749F96 /* Main */,
+				A1588E082289D65B00749F96 /* Launch */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A1588DF32289D58300749F96 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A1588DFA2289D5E000749F96 /* SampleData.swift */,
+				A1588DFD2289D5F800749F96 /* Enums.swift */,
+				A1588DFF2289D5FF00749F96 /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A1588DF42289D59000749F96 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A1588DF62289D5BD00749F96 /* Extensions.swift */,
+				A1588DF82289D5CE00749F96 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A1588DF52289D5A100749F96 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A1588DDF2289C1C100749F96 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A1588DFF2289D5FF00749F96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1588E002289D61000749F96 /* Student.swift */,
+				A1588E022289D61800749F96 /* Teacher.swift */,
+				A1588E042289D62300749F96 /* Subject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1588E062289D64600749F96 /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				A1588E172289D88C00749F96 /* Views */,
+				A1588E162289D88300749F96 /* Controllers */,
+			);
+			path = Students;
+			sourceTree = "<group>";
+		};
+		A1588E072289D64F00749F96 /* Teachers */ = {
+			isa = PBXGroup;
+			children = (
+				A1588E102289D81800749F96 /* Views */,
+				A1588E0F2289D80C00749F96 /* Controllers */,
+			);
+			path = Teachers;
+			sourceTree = "<group>";
+		};
+		A1588E082289D65B00749F96 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				A1588E0E2289D6E300749F96 /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		A1588E092289D66800749F96 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A1588E0B2289D67F00749F96 /* Controller */,
+				A1588E0A2289D67400749F96 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A1588E0A2289D67400749F96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1588DE32289C1C100749F96 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1588E0B2289D67F00749F96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1588DE12289C1C100749F96 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1588E0E2289D6E300749F96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1588DE82289C1C200749F96 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1588E0F2289D80C00749F96 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1588E142289D86E00749F96 /* TeachersViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A1588E102289D81800749F96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1588E112289D82800749F96 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1588E112289D82800749F96 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A1588E122289D85200749F96 /* TeacherViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A1588E162289D88300749F96 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1588E1B2289D8C600749F96 /* StudentsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A1588E172289D88C00749F96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1588E182289D89700749F96 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1588E182289D89700749F96 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A1588E192289D8AD00749F96 /* StudentViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +320,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1588E052289D62300749F96 /* Subject.swift in Sources */,
+				A1588DF92289D5CE00749F96 /* StringExtension.swift in Sources */,
+				A1588E132289D85200749F96 /* TeacherViewCell.swift in Sources */,
 				A1588DE22289C1C100749F96 /* ViewController.swift in Sources */,
+				A1588DF72289D5BD00749F96 /* Extensions.swift in Sources */,
+				A1588E152289D86E00749F96 /* TeachersViewController.swift in Sources */,
+				A1588DFB2289D5E000749F96 /* SampleData.swift in Sources */,
+				A1588E032289D61800749F96 /* Teacher.swift in Sources */,
+				A1588E1A2289D8AD00749F96 /* StudentViewCell.swift in Sources */,
+				A1588DFE2289D5F800749F96 /* Enums.swift in Sources */,
+				A1588E012289D61000749F96 /* Student.swift in Sources */,
 				A1588DE02289C1C100749F96 /* AppDelegate.swift in Sources */,
+				A1588E1C2289D8C600749F96 /* StudentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
