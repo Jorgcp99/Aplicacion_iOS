@@ -18,7 +18,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yUo-cx-dZt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-631" y="380"/>
+            <point key="canvasLocation" x="-598" y="14"/>
         </scene>
         <!--Teachers-->
         <scene sceneID="Qe5-mG-efr">
@@ -44,107 +44,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fat-Lh-f6P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-916" y="-880"/>
-        </scene>
-        <!--Students-->
-        <scene sceneID="ESt-Za-uFg">
-            <objects>
-                <viewController id="mQd-Oa-E7C" customClass="StudentsViewController" customModule="Aplicacion_iOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="o2u-Yh-e8n">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="g9A-Ov-a1o">
-                                <rect key="frame" x="0.0" y="44" width="375" height="685"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StudentViewCell" rowHeight="132" id="H36-Tj-MC5" customClass="StudentViewCell" customModule="Aplicacion_iOS" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="132"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="H36-Tj-MC5" id="hAd-bv-oaw">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="131.66666666666666"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ksd-za-wzw">
-                                                    <rect key="frame" x="8" y="0.0" width="359" height="132"/>
-                                                    <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KeJ-6i-6f2">
-                                                            <rect key="frame" x="8" y="8" width="128" height="116"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="128" id="Api-gQ-NSI"/>
-                                                            </constraints>
-                                                        </imageView>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="nPG-0S-9eT">
-                                                            <rect key="frame" x="144" y="8" width="223" height="116"/>
-                                                            <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Student Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mPs-ZW-n7G">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="110" height="48"/>
-                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                    <nil key="textColor"/>
-                                                                    <nil key="highlightedColor"/>
-                                                                </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvr-my-zpk">
-                                                                    <rect key="frame" x="0.0" y="48" width="105.33333333333333" height="20.333333333333329"/>
-                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                    <nil key="textColor"/>
-                                                                    <nil key="highlightedColor"/>
-                                                                </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngB-bl-5Qq">
-                                                                    <rect key="frame" x="0.0" y="68.333333333333329" width="93.333333333333329" height="47.666666666666671"/>
-                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                    <nil key="textColor"/>
-                                                                    <nil key="highlightedColor"/>
-                                                                </label>
-                                                            </subviews>
-                                                        </stackView>
-                                                    </subviews>
-                                                    <color key="backgroundColor" red="1" green="0.49066613721310148" blue="0.69535605278537838" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <constraints>
-                                                        <constraint firstItem="KeJ-6i-6f2" firstAttribute="top" secondItem="ksd-za-wzw" secondAttribute="top" constant="8" id="9X2-QE-yub"/>
-                                                        <constraint firstAttribute="bottom" secondItem="KeJ-6i-6f2" secondAttribute="bottom" constant="8" id="CJT-hH-7Dw"/>
-                                                        <constraint firstItem="dvr-my-zpk" firstAttribute="centerY" secondItem="KeJ-6i-6f2" secondAttribute="centerY" id="Gc6-Cn-Mnq"/>
-                                                        <constraint firstAttribute="trailing" secondItem="nPG-0S-9eT" secondAttribute="trailing" constant="8" id="KBa-q6-FVo"/>
-                                                        <constraint firstItem="mPs-ZW-n7G" firstAttribute="top" secondItem="KeJ-6i-6f2" secondAttribute="top" id="S0F-6I-yvF"/>
-                                                        <constraint firstItem="nPG-0S-9eT" firstAttribute="centerY" secondItem="KeJ-6i-6f2" secondAttribute="centerY" id="hOT-zP-o7z"/>
-                                                        <constraint firstItem="nPG-0S-9eT" firstAttribute="top" secondItem="ksd-za-wzw" secondAttribute="top" constant="8" id="hW2-Yr-LEh"/>
-                                                        <constraint firstItem="ngB-bl-5Qq" firstAttribute="bottom" secondItem="KeJ-6i-6f2" secondAttribute="bottom" id="muM-y9-WtE"/>
-                                                        <constraint firstItem="nPG-0S-9eT" firstAttribute="leading" secondItem="KeJ-6i-6f2" secondAttribute="trailing" constant="8" id="sBP-dF-OsF"/>
-                                                        <constraint firstAttribute="bottom" secondItem="nPG-0S-9eT" secondAttribute="bottom" constant="8" id="tb5-4t-f6b"/>
-                                                        <constraint firstItem="KeJ-6i-6f2" firstAttribute="leading" secondItem="ksd-za-wzw" secondAttribute="leading" constant="8" id="tqA-A5-dWb"/>
-                                                        <constraint firstItem="nPG-0S-9eT" firstAttribute="height" secondItem="KeJ-6i-6f2" secondAttribute="height" id="zle-ng-QRr"/>
-                                                    </constraints>
-                                                </view>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="ksd-za-wzw" firstAttribute="leading" secondItem="hAd-bv-oaw" secondAttribute="leading" id="WoA-dm-N66"/>
-                                                <constraint firstItem="ksd-za-wzw" firstAttribute="top" secondItem="hAd-bv-oaw" secondAttribute="top" id="dl5-9l-6zn"/>
-                                                <constraint firstAttribute="trailing" secondItem="ksd-za-wzw" secondAttribute="trailing" id="qfm-Bg-Jlc"/>
-                                                <constraint firstItem="ksd-za-wzw" firstAttribute="centerY" secondItem="hAd-bv-oaw" secondAttribute="centerY" id="uYa-Mv-40w"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="mAgeLabel" destination="ngB-bl-5Qq" id="FcN-PY-ZGl"/>
-                                            <outlet property="mEmailLabel" destination="dvr-my-zpk" id="V5V-66-UwZ"/>
-                                            <outlet property="mImageView" destination="KeJ-6i-6f2" id="SU0-WD-j0g"/>
-                                            <outlet property="mNameLabel" destination="mPs-ZW-n7G" id="m0G-Mv-coz"/>
-                                            <outlet property="mView" destination="ksd-za-wzw" id="jJR-ZB-MVs"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.63741966357899793" green="1" blue="0.88849680411170795" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="d89-bX-Dhg"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Students" image="Student_icon" id="58h-f7-5lH"/>
-                    <connections>
-                        <outlet property="mTableView" destination="g9A-Ov-a1o" id="6aR-W2-1Ta"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RJk-wH-E11" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-119.2" y="-706.4039408866995"/>
+            <point key="canvasLocation" x="-596" y="-573"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Myz-Wf-NoG">
@@ -156,10 +56,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="mQd-Oa-E7C" kind="relationship" relationship="viewControllers" id="iUU-dZ-r55"/>
+                        <segue destination="x0f-Xm-zQd" kind="relationship" relationship="viewControllers" id="Dg3-un-GYq"/>
                         <segue destination="DYk-Wi-q37" kind="relationship" relationship="viewControllers" id="wvr-55-SQV"/>
                         <segue destination="rwh-y8-UrQ" kind="relationship" relationship="viewControllers" id="LtR-lK-wRP"/>
-                        <segue destination="x0f-Xm-zQd" kind="relationship" relationship="viewControllers" id="Dg3-un-GYq"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O3e-xX-uFv" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -168,7 +67,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Student_icon" width="30" height="27"/>
         <image name="Teacher_icon" width="20" height="30"/>
     </resources>
 </document>

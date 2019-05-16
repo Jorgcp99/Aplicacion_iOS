@@ -82,9 +82,10 @@
                                             <constraint firstItem="dcd-FU-JdR" firstAttribute="leading" secondItem="wAe-bz-Nmz" secondAttribute="leading" id="y6i-ZH-iCU"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="mImage" destination="57k-Dc-oX0" id="sYs-j5-PDO"/>
-                                            <outlet property="mTitle" destination="nZK-Ff-Qsz" id="hi0-7h-xv9"/>
-                                            <outlet property="mView" destination="dcd-FU-JdR" id="lfq-5x-gzg"/>
+                                            <outlet property="mImage" destination="57k-Dc-oX0" id="75s-lV-Az8"/>
+                                            <outlet property="mTitle" destination="nZK-Ff-Qsz" id="Khh-TL-O3i"/>
+                                            <outlet property="mView" destination="dcd-FU-JdR" id="TA8-eT-Igw"/>
+                                            <outlet property="mView1" destination="2lL-Yo-Fwv" id="ahA-Zj-LXz"/>
                                             <segue destination="ofH-sK-GSk" kind="show" id="rtY-K9-fdH"/>
                                         </connections>
                                     </collectionViewCell>
