@@ -30,7 +30,16 @@ class StudentViewCell: UITableViewCell{
         mEmailLabel.text = nil
         mAgeLabel.text = nil
     }
-    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        mView.layer.cornerRadius = 10
+        mView.layer.shadowRadius = 10
+        mView.layer.shadowColor = UIColor.gray.cgColor
+        mView.layer.shadowOffset = CGSize.zero
+        mView.layer.shadowOpacity = 0.4
+        
+    }
     // MARK: - Public -
     
     func update(data student: Student?){
