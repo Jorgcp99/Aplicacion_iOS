@@ -23,6 +23,10 @@
 		A1588E152289D86E00749F96 /* TeachersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588E142289D86E00749F96 /* TeachersViewController.swift */; };
 		A1588E1A2289D8AD00749F96 /* StudentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588E192289D8AD00749F96 /* StudentViewCell.swift */; };
 		A1588E1C2289D8C600749F96 /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1588E1B2289D8C600749F96 /* StudentsViewController.swift */; };
+		A1ED1B47228AA55200985048 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1ED1B46228AA55200985048 /* Localizable.strings */; };
+		A1ED1B51228AA99C00985048 /* SubjectViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED1B50228AA99C00985048 /* SubjectViewCell.swift */; };
+		A1ED1B53228AAB9300985048 /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED1B52228AAB9300985048 /* SubjectsViewController.swift */; };
+		A1ED1B55228AB79200985048 /* Subjects.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1ED1B54228AB79200985048 /* Subjects.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +36,7 @@
 		A1588DE42289C1C100749F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1588DE62289C1C200749F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1588DE92289C1C200749F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A1588DEB2289C1C200749F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		A1588DEB2289C1C200749F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1588DF62289D5BD00749F96 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A1588DF82289D5CE00749F96 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		A1588DFA2289D5E000749F96 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
@@ -44,6 +48,10 @@
 		A1588E142289D86E00749F96 /* TeachersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachersViewController.swift; sourceTree = "<group>"; };
 		A1588E192289D8AD00749F96 /* StudentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewCell.swift; sourceTree = "<group>"; };
 		A1588E1B2289D8C600749F96 /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		A1ED1B46228AA55200985048 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A1ED1B50228AA99C00985048 /* SubjectViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewCell.swift; sourceTree = "<group>"; };
+		A1ED1B52228AAB9300985048 /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
+		A1ED1B54228AB79200985048 /* Subjects.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Subjects.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A1588DE62289C1C200749F96 /* Assets.xcassets */,
+				A1ED1B46228AA55200985048 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -97,6 +106,7 @@
 		A1588DF22289D57900749F96 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				A1ED1B4D228AA86C00985048 /* Subjects */,
 				A1588E072289D64F00749F96 /* Teachers */,
 				A1588E062289D64600749F96 /* Students */,
 				A1588E092289D66800749F96 /* Main */,
@@ -249,6 +259,32 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		A1ED1B4D228AA86C00985048 /* Subjects */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED1B4F228AA88800985048 /* Views */,
+				A1ED1B4E228AA88000985048 /* Controllers */,
+			);
+			path = Subjects;
+			sourceTree = "<group>";
+		};
+		A1ED1B4E228AA88000985048 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED1B52228AAB9300985048 /* SubjectsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A1ED1B4F228AA88800985048 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED1B50228AA99C00985048 /* SubjectViewCell.swift */,
+				A1ED1B54228AB79200985048 /* Subjects.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -308,6 +344,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1588DEA2289C1C200749F96 /* LaunchScreen.storyboard in Resources */,
+				A1ED1B55228AB79200985048 /* Subjects.storyboard in Resources */,
+				A1ED1B47228AA55200985048 /* Localizable.strings in Resources */,
 				A1588DE72289C1C200749F96 /* Assets.xcassets in Resources */,
 				A1588DE52289C1C100749F96 /* Main.storyboard in Resources */,
 			);
@@ -323,6 +361,7 @@
 				A1588E052289D62300749F96 /* Subject.swift in Sources */,
 				A1588DF92289D5CE00749F96 /* StringExtension.swift in Sources */,
 				A1588E132289D85200749F96 /* TeacherViewCell.swift in Sources */,
+				A1ED1B51228AA99C00985048 /* SubjectViewCell.swift in Sources */,
 				A1588DE22289C1C100749F96 /* ViewController.swift in Sources */,
 				A1588DF72289D5BD00749F96 /* Extensions.swift in Sources */,
 				A1588E152289D86E00749F96 /* TeachersViewController.swift in Sources */,
@@ -330,6 +369,7 @@
 				A1588E032289D61800749F96 /* Teacher.swift in Sources */,
 				A1588E1A2289D8AD00749F96 /* StudentViewCell.swift in Sources */,
 				A1588DFE2289D5F800749F96 /* Enums.swift in Sources */,
+				A1ED1B53228AAB9300985048 /* SubjectsViewController.swift in Sources */,
 				A1588E012289D61000749F96 /* Student.swift in Sources */,
 				A1588DE02289C1C100749F96 /* AppDelegate.swift in Sources */,
 				A1588E1C2289D8C600749F96 /* StudentsViewController.swift in Sources */,

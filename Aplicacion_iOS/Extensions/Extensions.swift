@@ -7,3 +7,24 @@
 //
 
 import Foundation
+
+let defaultDateFormat = "eeee dd 'de' MMM 'de' yyyy"
+let defaultDateLocale = "es_ES"
+
+extension Date {
+    
+    var defaultFormatLocale: String {
+        return toFormattedString()
+    }
+    
+    
+    func toFormattedString(with format: String = defaultDateFormat,
+                           locale: String = defaultDateLocale) -> String {
+        let subjectDateFormatted = DateFormatter()
+        
+        subjectDateFormatted.locale = Locale(identifier: locale)
+        subjectDateFormatted.dateFormat = format
+        
+        return subjectDateFormatted.string(from: self)
+    }
+}

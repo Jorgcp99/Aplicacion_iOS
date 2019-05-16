@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  Aplicacion_iOS
+
+  Created by Jorge Caro Poza on 14/5/19.
+  Copyright © 2019 Jorge Caro Poza. All rights reserved.
+*/
+
+"teacher_type_intern" = "Internal";
+"teacher_type_extern" = "External";
+
+"salary_type_junior" = "Junior";
+"salary_type_medium" = "Medium";
+"salary_type_senior" = "Senior";
+
+"birthdate" = "Birth date: %@";
