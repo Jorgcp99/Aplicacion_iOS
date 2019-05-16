@@ -9,7 +9,7 @@
 import UIKit
 class SubjectViewCell: UICollectionViewCell{
     static let mIdentifier = String(describing: SubjectViewCell.self)
-
+    
     @IBOutlet weak var mView: UIView!
     @IBOutlet weak var mImage: UIImageView!
     @IBOutlet weak var mTitle: UILabel!

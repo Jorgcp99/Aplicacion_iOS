@@ -94,7 +94,7 @@ let defaultTeachers: [Teacher] = [Teacher(photo: "teacher3",
 // Use a list.filter for get different values for each subject
 // With Calendar and DateComponents class can create a new Date
 // Calendar.current return actual Calendar 'Gregorian'
-let defaultSubjects: [Subject] = [Subject(photo: "img_subject_android",
+let defaultSubjects: [Subject] = [Subject(photo: "Subject1",
                                           name: "Android",
                                           year: Calendar.current.date(from: DateComponents(year: 2018,
                                                                                            month: 9)),

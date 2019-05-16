@@ -20,7 +20,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="nus-dE-Zcb">
                                 <rect key="frame" x="0.0" y="44" width="375" height="685"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.49232570912715334" green="1" blue="0.70522480250861319" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="A4s-vu-wVF">
                                     <size key="itemSize" width="179" height="167"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -28,7 +28,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="wAe-bz-Nmz" customClass="SubjectViewCell" customModule="Aplicacion_iOS" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SubjectViewCell" id="wAe-bz-Nmz" customClass="SubjectViewCell" customModule="Aplicacion_iOS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="179" height="167"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -85,6 +85,7 @@
                                             <outlet property="mImage" destination="57k-Dc-oX0" id="sYs-j5-PDO"/>
                                             <outlet property="mTitle" destination="nZK-Ff-Qsz" id="hi0-7h-xv9"/>
                                             <outlet property="mView" destination="dcd-FU-JdR" id="lfq-5x-gzg"/>
+                                            <segue destination="ofH-sK-GSk" kind="show" id="rtY-K9-fdH"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -108,6 +109,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="djK-t8-5VS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-138.40000000000001" y="-94.581280788177338"/>
+        </scene>
+        <!--Subject Detail View Controller-->
+        <scene sceneID="OjA-Cq-VRy">
+            <objects>
+                <viewController id="ofH-sK-GSk" customClass="SubjectDetailViewController" customModule="Aplicacion_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nvg-dD-X4a">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="1hk-NQ-PuG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yGc-n7-YIG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="695" y="-95"/>
         </scene>
     </scenes>
     <resources>

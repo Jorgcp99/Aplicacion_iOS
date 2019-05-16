@@ -37,6 +37,16 @@
             <point key="canvasLocation" x="630" y="-282"/>
         </scene>
         <!--Students-->
+        <scene sceneID="0h2-SF-0aV">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Students" id="x0f-Xm-zQd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="3SV-Qt-Qdy"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fat-Lh-f6P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-916" y="-880"/>
+        </scene>
+        <!--Students-->
         <scene sceneID="ESt-Za-uFg">
             <objects>
                 <viewController id="mQd-Oa-E7C" customClass="StudentsViewController" customModule="Aplicacion_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -149,6 +159,7 @@
                         <segue destination="mQd-Oa-E7C" kind="relationship" relationship="viewControllers" id="iUU-dZ-r55"/>
                         <segue destination="DYk-Wi-q37" kind="relationship" relationship="viewControllers" id="wvr-55-SQV"/>
                         <segue destination="rwh-y8-UrQ" kind="relationship" relationship="viewControllers" id="LtR-lK-wRP"/>
+                        <segue destination="x0f-Xm-zQd" kind="relationship" relationship="viewControllers" id="Dg3-un-GYq"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O3e-xX-uFv" userLabel="First Responder" sceneMemberID="firstResponder"/>
